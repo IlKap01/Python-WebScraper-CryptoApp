@@ -1,22 +1,49 @@
-Project: Crypto_app
-Crypto_app is a comprehensive Python-based tool designed to track, analyze, and visualize cryptocurrency market data. By integrating real-time data extraction with a user-friendly interface, this project serves as an all-in-one pipeline for crypto enthusiasts and data analysts.
+Crypto_app
+A comprehensive Python-based ecosystem designed to scrape, analyze, and visualize cryptocurrency market data in real-time.
 
-Key Features
-Web Scraping: Automated extraction of live data (Price, 24h/7d Change, Market Cap, and Volume) from CoinMarketCap using Requests and BeautifulSoup4.
+ Project Goal
+The goal of this project is to provide an automated pipeline for monitoring cryptocurrency trends. It combines web scraping, data persistence, and a user-friendly interface to help users make sense of market fluctuations.
 
-Data Management: Structured storage of scraped data into CSV format for historical tracking.
+ Key Features
+Web Scraping (scraper.py): Uses Requests and BeautifulSoup4 to extract live data from CoinMarketCap, including:
 
-Analytics & Visualization: In-depth statistical analysis and graphical representations of market trends using Matplotlib.
+Name & Symbol
 
-Interactive GUI: A functional desktop interface built with Tkinter for easy navigation and data viewing.
+Price (USD)
 
-Rule-Based Chatbot: A built-in assistant to answer basic queries regarding the processed data.
+24h & 7d Percentage Change
 
-Automation: Scheduled data harvesting using Cron jobs and the Python Schedule library to ensure the dataset remains up-to-date.
+Market Cap & 24h Volume
 
-Tech Stack
-Language: Python
+Data Management: Automatically saves and updates data in CSV format for historical tracking.
 
-Libraries: BeautifulSoup4, Requests, Matplotlib, Tkinter, Pandas, Schedule
+Analytics & Visualization: Statistical analysis and trend graphs generated via Matplotlib.
 
-Automation: Cron
+User Interface: A desktop GUI built with Tkinter for easy interaction.
+
+Smart Assistant: A rule-based Chatbot to answer data-related queries.
+
+Automation: Task scheduling integrated through Cron (system-level) and the Python Schedule library.
+
+Installation & Setup
+Clone the repository:
+
+
+git clone https://github.com/your-username/Crypto_app.git
+cd Crypto_app
+Install dependencies:
+
+
+pip install requests beautifulsoup4 matplotlib pandas schedule
+Run the application:
+
+
+python main.py
+📂 Project Structure
+scraper.py: Handles the extraction logic from CoinMarketCap.
+
+data/: Directory containing the generated CSV files.
+
+gui.py: The Tkinter interface code.
+
+analysis.py: Functions for Matplotlib visualizations.
