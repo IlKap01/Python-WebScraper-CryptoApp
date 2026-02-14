@@ -1,0 +1,46 @@
+[2025-08-28T06:38:43] Start cron_fetch
+[2025-08-28T06:38:43] Saved 10 rows to CSV
+[2025-08-28T06:38:43] Done
+[2025-08-28T06:39:01] Start cron_fetch
+[2025-08-28T06:39:01] Saved 10 rows to CSV
+[2025-08-28T06:39:01] Done
+[2025-08-28T06:40:02] Start cron_fetch
+[2025-08-28T06:40:02] Saved 10 rows to CSV
+[2025-08-28T06:40:02] Done
+[2025-08-28T06:41:01] Start cron_fetch
+[2025-08-28T06:41:02] Saved 10 rows to CSV
+[2025-08-28T06:41:02] Done
+[2025-08-28T06:42:01] Start cron_fetch
+[2025-08-28T06:42:01] Saved 10 rows to CSV
+[2025-08-28T06:42:01] Done
+[2025-08-28T06:43:02] Start cron_fetch
+[2025-08-28T06:43:02] Saved 10 rows to CSV
+[2025-08-28T06:43:02] Done
+[2025-08-28T06:44:01] Start cron_fetch
+[2025-08-28T06:44:01] Saved 10 rows to CSV
+[2025-08-28T06:44:01] Done
+[2025-08-28T19:00:01] Start cron_fetch
+[2025-08-28T19:00:01] Saved 10 rows to CSV
+[2025-08-28T19:00:01] Done
+[2025-08-30T09:00:02] Start cron_fetch
+[2025-08-30T09:00:02] Saved 10 rows to CSV
+[2025-08-30T09:00:02] Done
+[2025-08-31T09:00:02] Start cron_fetch
+[2025-08-31T09:00:02] Saved 10 rows to CSV
+[2025-08-31T09:00:02] Done
+[2025-09-01T09:00:01] Start cron_fetch
+[2025-09-01T09:00:02] Saved 10 rows to CSV
+[2025-09-01T09:00:02] Done
+[2025-09-02T09:00:02] Start cron_fetch
+[2025-09-02T09:00:02] Saved 10 rows to CSV
+[2025-09-02T09:00:02] Done
+[2025-09-03T09:00:02] Start cron_fetch
+[2025-09-03T09:00:02] Saved 10 rows to CSV
+[2025-09-03T09:00:02] Done
+/home/bougatsas/.local/lib/python3.8/site-packages/pandas/core/computation/expressions.py:20: UserWarning: Pandas requires version '2.7.3' or newer of 'numexpr' (version '2.7.1' currently installed).
+  from pandas.core.computation.check import NUMEXPR_INSTALLED
+/home/bougatsas/.local/lib/python3.8/site-packages/pandas/core/arrays/masked.py:64: UserWarning: Pandas requires version '1.3.2' or newer of 'bottleneck' (version '1.2.1' currently installed).
+  from pandas.core import (
+[2026-01-21T09:00:02] Start cron_fetch
+[2026-01-21T09:00:02] Saved 10 rows to CSV
+[2026-01-21T09:00:02] Done
